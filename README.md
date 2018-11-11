@@ -1,3 +1,4 @@
 # AndriyCherevan_MA2018Python
 
-Homework01: https://py3.codeskulptor.org/#user302_Xmvh1QuDryPnsaJ.py
+* <b>Homework00</b>: Create a new repository, write "hello MA" program and push it to git.
+* <b>Homework01</b>: Write "Rock, paper, scissors, lizard, Spock" game.
