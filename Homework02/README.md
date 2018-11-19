@@ -2,4 +2,4 @@
 
 Game "Guess the number"
 
-CodeSkulptor: https://py3.codeskulptor.org/#user302_IhZYDayub2_0.py
+CodeSkulptor: https://py3.codeskulptor.org/#user302_IhZYDayub2_1.py
