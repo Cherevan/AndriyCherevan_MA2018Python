@@ -2,4 +2,4 @@
 
 Game "Pong"
 
-CodeSkulptor: https://py3.codeskulptor.org/#user302_k5eqIPpWEH_1.py
+CodeSkulptor: https://py3.codeskulptor.org/#user302_k5eqIPpWEH_2.py

@@ -43,9 +43,10 @@ def check_paddle():
 
 
 def update_ball():
-    global ball_pos, score
+    global ball_pos, ball_vel, score
     if ball_pos[0] <= PAD_WIDTH + BALL_RADIUS or ball_pos[0] >= WIDTH - (PAD_WIDTH + BALL_RADIUS):
         ball_vel[0] = -ball_vel[0] * 1.1  # Change the direction and increase velocity
+        ball_vel[1] = ball_vel[1] * 1.1
         side = False  # If ball in the left side
         if ball_pos[0] > WIDTH / 2:  # If ball in the right side
             side = True
