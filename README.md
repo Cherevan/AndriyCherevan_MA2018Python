@@ -5,3 +5,4 @@
 * <b>Homework02</b>: Write game "Guess the number" with SimpleGUI library.
 * <b>Homework03</b>: Write game "Stop: Game" with SimpleGUI library, timer and canvas.
 * <b>Homework04</b>: Write game "Pong" with Canvas in SimpleGUI library.
+* <b>Homework05</b>: Game "Memory" with Canvas in SimpleGUI library.
