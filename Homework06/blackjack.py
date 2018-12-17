@@ -99,11 +99,14 @@ class Deck:
         return result
 
     def shuffle(self):
+        random.shuffle(self.deck)  # shuffle the deck
+
+    def restart(self):
+        self.deck = []
         for suit in SUITS:
             for rank in RANKS:
                 self.deck.append(Card(suit, rank))
-
-        random.shuffle(self.deck)  # shuffle the deck
+        self.shuffle()
 
     def deal_card(self):
         return self.deck.pop()  # deal a card object from the deck
@@ -113,7 +116,7 @@ class Deck:
 def deal():
     global outcome, outcome_pos, in_play, score
 
-    deck.shuffle()
+    deck.restart()
     player_hand.clean_hand()
     dealer_hand.clean_hand()
 
