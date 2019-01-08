@@ -7,3 +7,4 @@
 * <b>Homework04</b>: Write game "Pong" with Canvas in SimpleGUI library.
 * <b>Homework05</b>: Game "Memory" with Canvas in SimpleGUI library.
 * <b>Homework06</b>: Game "Blackjack"
+* <b>Homework07</b>: Game "2048"
