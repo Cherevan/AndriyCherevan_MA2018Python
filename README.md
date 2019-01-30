@@ -9,3 +9,4 @@
 * <b>Homework06</b>: Game "Blackjack"
 * <b>Homework07</b>: Game "2048"
 * <b>Homework08</b>: Game "Tic-Tac-Toe"
+* <b>Homework09</b>: Games logic to "Yahtzee"
