@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+    Any city
+
+{% endblock %}
+
+{% block page_title %}
+
+    Enter post-code
+
+{% endblock %}
+
+{% block contant %}
+
+<h2>{{ name }} is already on the list. Try entering a different code.</h2>
+
+<p><img src="{{ url_for('static', filename='any_city.png') }}" alt="Hruschi nad vyshnyamy gudut`" width="100%"></p>
+
+{% endblock %}

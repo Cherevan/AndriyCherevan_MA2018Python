@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+    {{ name }}
+
+{% endblock %}
+
+{% block page_title %}
+
+    Add a new city
+
+{% endblock %}
+
+{% block contant %}
+
+    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">{{ city.city_name }}</div>
+        <img src="{{ coa }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ city.country }}</h5>
+            <p class="card-text">Zip-code: {{ city.zip_code }},<br>
+                Latitude: {{ city.lat }},<br>
+                Longitude: {{ city.lng }}</p>
+
+            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link"></a>
+        </div>
+    </div>
+
+{% endblock %}

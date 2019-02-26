@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+    Delete
+
+{% endblock %}
+
+{% block page_title %}
+
+    Delete city from this list
+
+{% endblock %}
+
+{% block contant %}
+
+    <form action = "./delete-this" method="POST">
+
+        <div class="form-group">
+            <label for="inputZip">Enter a zip-code</label>
+            <input type="text" class="form-control" id="inputZip" name="post_code">
+        </div>
+
+        <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+
+    <table class="table table-striped" align="center">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Zip-code</th>
+                <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        {% for city in cities %}
+
+            <tr>
+                <th scope="row">{{ city.zip_code }}</th>
+                <td>{{ city.city_name }}</td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+{% endblock %}

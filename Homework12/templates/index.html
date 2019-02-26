@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+    New city
+
+{% endblock %}
+
+{% block page_title %}
+
+    Enter post-code
+
+{% endblock %}
+
+{% block contant %}
+
+    <form action = "./show-city" method = "POST">
+
+        <div class="form-group">
+            <label for="inputZip">Zip-code</label>
+            <input type="text" class="form-control" id="inputZip" name="post_code">
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="region" id="radioUA" value="ua" checked>
+            <label class="form-check-label" for="radioUA">Ukraine</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="region" id="radioUS" value="us">
+            <label class="form-check-label" for="radioUS">USA</label>
+        </div>
+
+        <button type="submit" value = "submit" class="btn btn-primary">Submit</button>
+
+    </form>
+
+{% endblock %}
