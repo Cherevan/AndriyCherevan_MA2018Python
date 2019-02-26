@@ -4,6 +4,8 @@
 
 [Project on Heroku](https://glacial-temple-56790.herokuapp.com/)
 
-![screen](https://github.com/Cherevan/AndriyCherevan_MA2018Python/blob/master/Homework12/new_cities.png "Add a new list to DB")
+#### Add a new city to database.
+![screen](https://github.com/Cherevan/AndriyCherevan_MA2018Python/blob/master/Homework12/new_cities.png "Add a new city to DB")
 
-![screen](https://github.com/Cherevan/AndriyCherevan_MA2018Python/blob/master/Homework12/list_of_cities "Table of all cities in DB")
+#### Table of all cities in datebase.
+![screen](https://github.com/Cherevan/AndriyCherevan_MA2018Python/blob/master/Homework12/list_of_cities.png "Table of all cities in DB")
